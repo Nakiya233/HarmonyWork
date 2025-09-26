@@ -36,6 +36,18 @@
           ]
         }
       ]
+    },
+    {
+      "name": "work0926",
+      "srcPath": "./work0926",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
     }
   ]
 }

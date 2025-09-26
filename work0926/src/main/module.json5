@@ -1,0 +1,28 @@
+{
+  "module": {
+    "name": "work0926",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "Work0926Ability",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "Work0926Ability",
+        "srcEntry": "./ets/work0926ability/Work0926Ability.ets",
+        "description": "$string:Work0926Ability_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:Work0926Ability_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}
