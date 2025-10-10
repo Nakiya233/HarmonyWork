@@ -1,0 +1,28 @@
+{
+  "module": {
+    "name": "work1010",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "Work1010Ability",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "Work1010Ability",
+        "srcEntry": "./ets/work1010ability/Work1010Ability.ets",
+        "description": "$string:Work1010Ability_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:Work1010Ability_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}
