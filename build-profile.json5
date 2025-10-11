@@ -96,6 +96,18 @@
           ]
         }
       ]
+    },
+    {
+      "name": "work1011",
+      "srcPath": "./work1011",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
     }
   ]
 }
