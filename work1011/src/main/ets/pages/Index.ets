@@ -63,10 +63,10 @@ struct Index {
   @State refreshFlag: number = 0 // 添加刷新标志
 
   @State students: Student[] = [
-    new Student(1, '孙祥峰', 22, '男', $r('app.media.app_icon')),
-    new Student(2, '孙祥峰', 22, '男', $r('app.media.app_icon')),
-    new Student(3, '王泽宇', 23, '女', $r('app.media.app_icon')),
-    new Student(4, '魏俊豪', 24, '男', $r('app.media.app_icon'))
+    new Student(1, '孙祥峰', 21, '男', $r('app.media.app_icon')),
+    new Student(2, '孙佳浩', 21, '男', $r('app.media.app_icon')),
+    new Student(3, '赵宇航', 21, '男', $r('app.media.app_icon')),
+    new Student(4, '裴紫文', 21, '男', $r('app.media.app_icon'))
   ]
 
   aboutToAppear() {

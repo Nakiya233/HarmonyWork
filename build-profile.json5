@@ -108,6 +108,18 @@
           ]
         }
       ]
+    },
+    {
+      "name": "work1014",
+      "srcPath": "./work1014",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,33 @@
+{
+  "module": {
+    "name": "work1014",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "Work1014Ability",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "Work1014Ability",
+        "srcEntry": "./ets/work1014ability/Work1014Ability.ets",
+        "description": "$string:Work1014Ability_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:Work1014Ability_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      }
+    ]
+  }
+}

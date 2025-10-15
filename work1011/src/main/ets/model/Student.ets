@@ -1,11 +1,11 @@
 // 学生数据类
 @Observed
 export class Student {
-  public id: number
-  public name: string
-  public age: number
-  public gender: string
-  public avatar: Resource
+  id: number
+  name: string
+  age: number
+  gender: string
+  avatar: Resource
 
   constructor(id: number, name: string, age: number, gender: string, avatar: Resource) {
     this.id = id
